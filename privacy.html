@@ -3,78 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#191a18">
-  <title data-zh="隱私政策 — Badnotes">Privacy Policy — Badnotes</title>
-  <meta name="description" content="How Badnotes handles local notebooks, photos, exports, diagnostics, TestFlight feedback, and this website. Includes data retention, deletion, and contact information." data-zh="了解 Badnotes 如何處理本機筆記、照片、匯出、診斷紀錄、TestFlight 回饋與網站資料，包含資料保留、刪除及聯絡方式。">
+  <meta name="theme-color" content="#f5f1e9">
+  <title data-i18n="policyPageTitle">Privacy — Badnotes</title>
+  <meta name="description" data-i18n="policyMeta" content="How Badnotes handles local notebooks, sharing, diagnostics and this website.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Badnotes">
-  <meta property="og:title" content="Privacy Policy — Badnotes" data-zh="隱私政策 — Badnotes">
-  <meta property="og:description" content="Your notebooks are stored on your iPad. Learn how Badnotes handles data and your choices." data-zh="筆記保存在你的 iPad。了解 Badnotes 的資料處理方式與你能做的選擇。">
+  <meta property="og:title" content="Privacy — Badnotes">
+  <meta property="og:description" content="How Badnotes handles local notebooks, sharing, diagnostics and this website.">
   <meta property="og:url" content="https://whodidthese.github.io/site-badnotes/privacy.html">
+  <meta property="og:image" content="https://whodidthese.github.io/site-badnotes/assets/brand/app-icon-512.png">
+  <meta property="og:image:alt" content="Badnotes: a gold quill on a dark square notebook.">
+  <meta name="twitter:card" content="summary">
   <link rel="canonical" href="https://whodidthese.github.io/site-badnotes/privacy.html">
-  <link rel="icon" type="image/png" href="assets/app-icon.png">
-  <link rel="apple-touch-icon" href="assets/app-icon.png">
+  <link rel="icon" type="image/png" href="assets/brand/favicon.png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/translations.js" defer></script>
   <script src="assets/site.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main" data-zh="跳至主要內容">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
   <header class="site-header shell">
-    <a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="36" height="36"><span>Badnotes</span></a>
-    <nav aria-label="Main navigation" data-zh-aria="主要導覽">
-      <a href="index.html" data-zh="首頁">Home</a>
-      <a href="index.html#support" data-zh="支援">Support</a>
-      <div class="language-switch" aria-label="Language" data-zh-aria="語言" role="group" hidden>
-        <button type="button" data-language="en" lang="en" aria-pressed="true">EN</button>
-        <button type="button" data-language="zh-Hant" lang="zh-Hant" aria-pressed="false">繁中</button>
+    <a class="brand" href="index.html" data-local-link><img src="assets/brand/app-icon-512.png" alt="" width="44" height="44"><span>Badnotes<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Main navigation" data-i18n-aria="navLabel">
+      <a class="nav-section" href="index.html" data-local-link data-i18n="home">Home</a>
+      <a class="nav-section" href="index.html#pages" data-local-link data-i18n="navPages">Your pages</a>
+      <a href="index.html#support" data-local-link data-i18n="support">Support</a>
+      <div class="language-control" hidden>
+        <svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg>
+        <select id="language" aria-label="Language" data-i18n-aria="languageLabel">
+          <option value="en" lang="en">English</option><option value="zh-Hant" lang="zh-Hant">繁體中文</option><option value="zh-Hans" lang="zh-Hans">简体中文</option><option value="ja" lang="ja">日本語</option><option value="ko" lang="ko">한국어</option><option value="es" lang="es">Español</option>
+        </select>
       </div>
     </nav>
   </header>
-  <main class="policy shell" id="main">
-    <a class="back-link" href="index.html" data-zh="← 返回 Badnotes">← Back to Badnotes</a>
-    <header class="policy-header">
-      <p class="eyebrow" data-zh="隱私與你的選擇">PRIVACY &amp; YOUR CHOICES</p>
-      <h1 data-zh="隱私政策">Privacy Policy</h1>
-      <p data-zh="本政策適用於由 whodidthese 維護的 Badnotes iPad App 與本網站。Badnotes 以本機筆記為核心，無需帳號。以下說明哪些資料留在裝置上，以及使用分享、支援或測試服務時的資料處理方式。">This policy covers the Badnotes iPad app and this website, maintained by whodidthese. Badnotes is built around local notebooks and requires no account. Below we explain what stays on your device and what happens when you use sharing, support, or beta-testing services.</p>
-      <p class="policy-date"><time datetime="2026-09-06" data-zh="生效／最後更新日期：2026 年 9 月 6 日">Effective / last updated: September 6, 2026</time></p>
-    </header>
-    <div class="policy-sections">
-      <section><h2 data-zh="App 的資料處理">Data handled by the app</h2>
-        <p data-zh="Badnotes 不要求註冊，也不內建廣告、廣告識別碼存取、第三方分析或追蹤 SDK。App 不會自動將你的筆記或本機診斷紀錄傳送給開發者，亦沒有 Badnotes 雲端伺服器供筆記上傳或同步。">Badnotes has no registration, ads, advertising-identifier access, or third-party analytics or tracking SDKs. The app does not automatically transmit your notebooks or its local diagnostic log to the developer. There is no Badnotes cloud server for uploading or syncing notebooks.</p>
-        <p data-zh="Apple 的 TestFlight 測試資料與你主動提供的支援內容屬於不同情境，詳見下方說明。我們不販售個人資料，也不將資料用於廣告追蹤。">Apple’s TestFlight data and information you choose to provide for support are separate cases described below. We do not sell personal information or use it for advertising tracking.</p>
-      </section>
-      <section><h2 data-zh="筆記與本機儲存">Notebooks and local storage</h2>
-        <p data-zh="筆記標題、頁面順序、手寫內容、插入的圖片、封面及相關設定保存在 App 的裝置內儲存空間，供顯示、編輯、保存與匯出使用。Badnotes 不提供 iCloud、CloudKit 或第三方跨裝置同步。">Notebook titles, page order, handwriting, inserted images, covers, and related settings are stored in the app’s on-device storage for display, editing, saving, and export. Badnotes does not provide iCloud, CloudKit, or third-party cross-device sync.</p>
-        <p data-zh="裝置備份與你自行保存的匯出檔案，可能由 iPadOS、Apple 或你選擇的儲存服務依各自設定與政策處理；它們與 Badnotes 的同步功能不同。我們無法存取或代你還原裝置上的筆記。">Device backups and exported files you save may be handled by iPadOS, Apple, or your chosen storage service under their settings and policies; these are separate from app-level sync. We cannot access or restore notebooks on your device for you.</p>
-      </section>
-      <section><h2 data-zh="照片與匯出分享">Photos, export, and sharing</h2>
-        <p data-zh="當你插入圖片或選擇封面時，系統照片選擇器只提供你選取的項目，App 不要求讀取整個照片圖庫。選取的圖片會在裝置上處理並保存為筆記或封面的一部分。">When you insert an image or choose a cover, the system photo picker provides the items you select. The app does not request read access to your entire photo library. Selected images are processed on your device and stored as part of your notebook or cover.</p>
-        <p data-zh="你可以將筆記匯出為 PDF 或圖片，再使用系統分享選單選擇目的地。儲存匯出圖片至「照片」時，系統可能詢問新增照片的權限；你可以在 iPadOS 設定中管理此權限。匯出檔案包含你選擇的筆記內容，送到其他 App 或服務後，依接收端的政策處理。">You can export notebooks as PDF or images and choose a destination in the system share sheet. Saving exported images to Photos may prompt for permission to add photos; you can manage that permission in iPadOS Settings. Exports contain the notebook content you choose. Once shared to another app or service, they are handled under that recipient’s policies.</p>
-      </section>
-      <section><h2 data-zh="本機診斷紀錄">Local diagnostic log</h2>
-        <p data-zh="為協助排除問題，Badnotes 會在本機保留有限大小、循環替換的診斷紀錄，內容包括 App 版本、系統版本、裝置型號、時間與時區、操作識別碼及技術事件或錯誤。這些紀錄不會自動上傳，也不以記錄筆記標題、手寫內容或照片為目的。">For troubleshooting, Badnotes keeps a size-limited, rotating diagnostic log on your device. It includes the app and OS versions, device model, time and time zone, operation identifiers, and technical events or errors. It is not automatically uploaded and is not designed to record notebook titles, handwriting, or photos.</p>
-        <p data-zh="你可以在 App 的 Log 畫面查看、複製、匯出或清空紀錄。只有在你選擇將紀錄提供給我們時，我們才會收到該份內容。分享前請先檢查並移除敏感資訊。">You can view, copy, export, or clear the log in the app’s Log screen. We receive a copy only if you choose to send it to us. Review it and remove sensitive information before sharing.</p>
-      </section>
-      <section><h2 data-zh="TestFlight 與 Apple 服務">TestFlight and Apple services</h2>
-        <p data-zh="若你透過 TestFlight 測試 Badnotes，Apple 會自動收集當機與使用資訊並提供給開發者；依邀請方式，可能包含姓名或電子郵件。你提交的回饋、留言或截圖也會透過 Apple 提供給開發者。我們僅將這些測試資料用於診斷問題、回覆回饋及改善 Badnotes，不分享給第三方。">If you test Badnotes through TestFlight, Apple automatically collects crash and usage information and shares it with the developer; depending on the invitation method, this may include your name or email. Feedback, comments, or screenshots you submit are also shared through Apple. We use this beta-testing information only to diagnose issues, respond to feedback, and improve Badnotes, and do not share it with third parties.</p>
-        <p><span data-zh="Apple 依自身政策處理 App Store、系統診斷與 TestFlight 資料。詳見：">Apple handles App Store, system diagnostics, and TestFlight data under its own policies. See: </span> <a href="https://www.apple.com/legal/privacy/data/en/test-flight/" data-zh="TestFlight 與隱私權">TestFlight &amp; Privacy</a> · <a href="https://www.apple.com/legal/privacy/" data-zh="Apple 隱私權政策">Apple Privacy Policy</a>.</p>
-      </section>
-      <section><h2 data-zh="本網站與 GitHub">This website and GitHub</h2>
-        <p data-zh="本網站不加入分析工具、廣告、追蹤像素、Cookie 或瀏覽器本機儲存。語言依網址參數或瀏覽器偏好顯示；手動選擇語言只會更新網址參數。字型使用裝置內建字型，網站素材由同一網站提供。">This website adds no analytics, advertising, tracking pixels, cookies, or browser local storage. The language comes from the URL or your browser preference; choosing a language only updates the URL parameter. Fonts are supplied by your device, and site assets are served from this website.</p>
-        <p><span data-zh="網站由 GitHub Pages 代管。GitHub 會為安全目的記錄訪客 IP 位址，即使訪客未登入也一樣。前往 GitHub Issues 時，GitHub 亦依自身政策處理帳號與使用資料。詳見：">The site is hosted by GitHub Pages. GitHub logs visitors’ IP addresses for security, including visitors who are not signed in. When you visit GitHub Issues, GitHub also handles account and usage data under its own policies. See: </span> <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" data-zh="GitHub Pages 資料收集說明">GitHub Pages data collection</a> · <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" data-zh="GitHub 隱私權聲明">GitHub Privacy Statement</a>.</p>
-      </section>
-      <section><h2 data-zh="資料保留與刪除">Retention and deletion</h2>
-        <p data-zh="你可以在 App 中刪除筆記，並在 Log 畫面清空診斷紀錄；較舊的紀錄也會隨循環寫入被替換。保存或刪除過程中的內部復原檔案，可能暫時留在 App 的本機儲存空間。在 iPadOS 使用「刪除 App」（不是「卸載 App」）可移除 App 與其本機資料。">You can delete notebooks in the app and clear diagnostics in the Log screen; older log entries are also replaced as the log rotates. Internal recovery files from saving or deletion may temporarily remain in app-local storage. Using Delete App in iPadOS, rather than Offload App, removes the app and its local data.</p>
-        <p data-zh="已匯出到「檔案」、照片、備份或其他服務的副本不會一併移除，請在各目的地自行管理與刪除。我們沒有筆記的伺服器副本可供刪除。">Copies exported to Files, Photos, backups, or other services are not removed with the app; manage and delete those copies at each destination. We have no server-side copy of your notebooks to delete.</p>
-        <p data-zh="你提供的支援內容及開發者可取得的測試資料，僅在排除問題、回覆請求及必要後續追蹤期間保留。你可以透過下方聯絡方式要求存取或刪除由我們管理的副本。GitHub 上的公開討論及 Apple 保存的資料另受各平台保留政策約束；我們無法保證移除第三方已保存的副本。">Support information you provide and testing data available to the developer are retained only as needed to troubleshoot, answer requests, and handle necessary follow-up. You may request access to or deletion of copies we control using the contact below. Public GitHub discussions and data retained by Apple are also subject to those platforms’ retention policies; we cannot guarantee removal of copies held by third parties.</p>
-      </section>
-      <section><h2 data-zh="聯絡與政策更新">Contact and policy changes</h2>
-        <p><span data-zh="如有隱私問題、資料存取／刪除請求或需要支援，請聯絡 Badnotes 維護者 whodidthese：">For privacy questions, data access or deletion requests, or support, contact Badnotes maintainer whodidthese: </span> <a href="https://github.com/whodidthese/site-badnotes/issues" data-zh="Badnotes 支援（GitHub Issues）">Badnotes support on GitHub Issues</a>.</p>
-        <p data-zh="Issues 為公開內容。請先只描述問題或請求類型，不要張貼電子郵件、私人筆記、照片或未檢查的診斷紀錄。若需要私人資訊來處理請求，請先要求合適的私下聯絡方式。">Issues are public. Start with the type of question or request, without posting email addresses, private notes, photos, or unreviewed diagnostic logs. If private information is needed to handle your request, first ask for a suitable private contact method.</p>
-        <p data-zh="若 Badnotes 的資料處理方式改變，我們會更新本頁與上方日期。請在使用新版本時查閱最新政策。">If Badnotes’ data practices change, we will update this page and the date above. Please review the current policy when using a new version.</p>
-      </section>
-    </div>
+  <main class="privacy-main shell" id="main">
+    <p class="eyebrow" data-i18n="policyEyebrow">YOUR NOTEBOOKS, YOUR CHOICES</p>
+    <h1 data-i18n="policyTitle">Privacy, plainly.</h1>
+    <p class="policy-lead" data-i18n="policyLead">Badnotes is maintained by whodidthese. This policy covers the iPad app and this website.</p>
+    <p class="policy-date"><time datetime="2026-09-30" data-i18n="policyDate">Updated September 30, 2026</time></p>
+    <section class="policy-section"><h2 data-i18n="policyLocalTitle">Your notebooks stay on your iPad.</h2><p data-i18n="policyLocalText">Handwriting, images, titles, covers and settings are stored in the app on your device. Badnotes requires no account and has no ads, third-party analytics or notebook cloud sync. It does not automatically send notebooks to the developer. Device backups are handled by iPadOS and your chosen backup service.</p>
+    </section>
+    <section class="policy-section"><h2 data-i18n="policyMediaTitle">You choose what to import and share.</h2><p data-i18n="policyMediaText">The system photo picker provides only the images you select. Selected images become part of your local notebook or cover. Exporting a PDF, image or editable backup uses the destination you choose. Saving an image to Photos may ask for permission to add photos. Copies shared to another app or service follow that recipient’s policies.</p>
+    </section>
+    <section class="policy-section"><h2 data-i18n="policyDeleteTitle">You control local deletion.</h2><p data-i18n="policyDeleteText">Deleted notebooks go to Recently Deleted, which keeps up to 30 notebooks, until restored, permanently deleted or removed as older entries make room. Temporary recovery files may remain during saving or deletion. Delete App in iPadOS removes the app and its local data; Offload App retains data. Exported files and device backups must be managed separately.</p>
+    </section>
+    <section class="policy-section"><h2 data-i18n="policyLogTitle">Diagnostics stay local unless you share them.</h2><p data-i18n="policyLogText">A size-limited, rotating local log records app and system versions, device model, time, operation identifiers and technical events or errors. It is not designed to record notebook titles, handwriting or photos, and is not uploaded automatically. You can view, copy, export or clear it in the app’s Log screen.</p>
+    </section>
+    <section class="policy-section"><h2 data-i18n="policyWebTitle">This website is simple, too.</h2><p data-i18n="policyWebText">We add no analytics, tracking pixels, cookies or browser storage. Fonts come from your device. Language is selected through the URL, with English as the default. GitHub Pages hosts this site and logs visitor IP addresses for security, including visitors who are not signed in.</p>
+      <p><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" data-i18n="githubPagesPrivacy">GitHub Pages data collection</a> · <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" data-i18n="githubPrivacy">GitHub Privacy Statement</a></p>
+    </section>
+    <section class="policy-section"><h2 data-i18n="policyBetaTitle">TestFlight is handled by Apple.</h2><p data-i18n="policyBetaText">If you use TestFlight, Apple shares crash and usage information with the developer. Depending on the invitation, this may include your name or email. Feedback and screenshots you submit are also shared through Apple. We use this information to diagnose issues, respond to feedback and improve Badnotes, and do not share it with third parties.</p>
+      <p><a href="https://www.apple.com/legal/privacy/data/en/test-flight/" data-i18n="appleTestFlightPrivacy">TestFlight &amp; Privacy</a> · <a href="https://www.apple.com/legal/privacy/" data-i18n="applePrivacy">Apple Privacy Policy</a></p>
+    </section>
+    <section class="policy-section"><h2 data-i18n="policySupportTitle">Support and your requests.</h2><p data-i18n="policySupportText">Contact whodidthese through GitHub Issues for support or to request access to or deletion of information you have provided. Issues are public: start with the request type and ask for a private contact method before sending sensitive content.</p>
+      <p><a href="https://github.com/whodidthese/site-badnotes/issues" data-i18n="supportLink">Contact Badnotes on GitHub</a></p><p data-i18n="policyRetentionText">We retain support and developer-accessible beta information only as needed to handle the request and necessary follow-up. Apple and GitHub retain their own data under their policies. If our data practices change, we will update this page and its date.</p>
+    </section>
   </main>
-  <footer class="site-footer shell"><a class="wordmark" href="index.html">Badnotes<span aria-hidden="true">.</span></a><p>© 2026 Badnotes</p><div><a href="index.html" data-zh="首頁">Home</a><a href="https://github.com/whodidthese/site-badnotes/issues" data-zh="支援">Support</a></div></footer>
+  <footer class="site-footer shell"><a class="footer-brand" href="index.html" data-local-link>Badnotes<span class="brand-dot">.</span></a><p>© 2026 Badnotes</p><div><a href="index.html" data-local-link data-i18n="home">Home</a><a href="index.html#support" data-local-link data-i18n="support">Support</a><a href="#main" data-i18n="backTop">Back to top ↑</a></div></footer>
 </body>
 </html>

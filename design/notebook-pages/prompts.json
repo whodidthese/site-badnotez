@@ -1,0 +1,22 @@
+{
+  "mode": "built-in",
+  "date": "2026-09-30",
+  "purpose": "Illustrated notebook examples for the Badnotes official website; not screenshots or proof of drawing-tool output.",
+  "assets": [
+    {
+      "file": "field-notes-source.png",
+      "prompt": "Use case: illustration-story.\nAsset type: an elegant sample notebook page for the official Badnotes iPad handwriting app website.\nCreate only a flat, straight-on A4 portrait sheet of warm ivory paper, edge-to-edge paper, no desk, no device, no app interface, no perspective or drop shadow.\nEditorial style: a thoughtful artist's field journal, fine graphite and sepia ink, loose watercolor in muted sage, olive and ochre, airy composition with generous blank paper. One large graceful botanical study of an olive branch crossing the central-right portion, two small leaf studies and a tiny landscape sketch in the lower-left. Natural imperfect hand lettering with just these short readable words: \"Small discoveries\", \"a walk, a leaf, a little light\", \"olive / afternoon sun\". One subtle hand-drawn ochre underline and a couple of small arrows connecting observations. Very restrained, literate, quietly beautiful; a plausible page made with a stylus, without photographic realism. No typeset body paragraphs, no extra text, no clip art collage, no borders, no watermark. Let the page breathe.",
+      "reference": null
+    },
+    {
+      "file": "everyday-ideas-source.png",
+      "prompt": "Use case: illustration-story.\nAsset type: second sample A4 notebook page for the official Badnotes handwriting app website, matching the airy ivory-paper style of the reference.\nInput image: style reference only. Create a new flat A4 portrait sheet, with straight square edges and the paper filling the entire image. No tablet or UI, no desk, no shadows outside the paper.\nA beautiful daily idea sketchbook page: a hand-drawn architectural study of a sunlit arched doorway, loose sepia ink lines and restrained warm terracotta watercolor, one little coffee cup ink sketch, a simple small three-box idea diagram, and tiny swatches of ochre, terracotta and slate blue. Plenty of breathing room, marks feel handmade and imperfect. Main arch drawing in center. Small heading at top \"Ideas for a slower day\"; lower note \"make room for the unexpected\"; a tiny \"morning light\" annotation next to the arch. Very limited text, exactly these words, no body paragraphs. Sophisticated literary editorial mood, subtly tactile cream paper, useful as a handwriting / sketch example. No logos, no photos, no clip art, no extra words, no watermark.",
+      "reference": "field-notes-source.png (style only)"
+    },
+    {
+      "file": "study-notes-source.png",
+      "prompt": "Use case: illustration-story.\nAsset type: an A4 portrait study notebook page for the Badnotes iPad website.\nThe reference is for ivory paper and natural handwriting style only. Create a NEW page with no device or app interface, paper fills the entire image, no perspective.\nDesign a beautifully sparse reading-and-thinking page with dark brown handwritten short notes, fine pencil diagrams and translucent muted gold and sage marker highlights. Top handwritten title \"The art of noticing\". Four short readable handwritten lines spaced generously: \"Pay attention.\", \"Stay curious.\", \"Find beauty in ordinary things.\", \"Leave room to wonder.\". Highlight just \"Stay curious\" in pale muted gold and \"ordinary things\" in pale sage. Center-right: a delicate hand-drawn fountain pen and open book, loose brown ink with minimal soft grey shading. Lower third: a graceful small mind map: \"notice\" connected to \"collect\", \"connect\" and \"create\", with simple hand-drawn circles and arrows. A few tiny pencil stars in generous blank space. Restrained literary journal aesthetic; believable handwriting and sketching, very airy, no long text, no watercolor landscape, no stickers, no photos, no extra words, no border, no logo or watermark.",
+      "reference": "field-notes-source.png (style only)"
+    }
+  ]
+}
