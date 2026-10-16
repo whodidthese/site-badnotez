@@ -1,6 +1,6 @@
 # Image and brand provenance
 
-Created September 30, 2026 for the Badnotes official website.
+Created September 30, 2026 for the Badnotez official website.
 
 ## Shared icon
 
@@ -17,7 +17,7 @@ Website assets:
 
 ## Illustrated notebook pages
 
-`design/notebook-pages/*-source.png` are AI-generated illustrations made with the built-in imagegen tool. They are notebook content examples, rather than screenshots, real user notes, or proof of a brush or text tool in Badnotes. Similar images can be imported into the app. Website captions and alt text identify them as illustrated examples.
+`design/notebook-pages/*-source.png` are AI-generated illustrations made with the built-in imagegen tool. They are notebook content examples, rather than screenshots, real user notes, or proof of a brush or text tool in Badnotez. Similar images can be imported into the app. Website captions and alt text identify them as illustrated examples.
 
 - `field-notes`: botanical observations, olive branch and a tiny landscape.
 - `everyday-ideas`: architectural sketch, coffee cup and an idea diagram.

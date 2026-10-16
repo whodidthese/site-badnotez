@@ -1,10 +1,10 @@
-# Badnotes App Store listing — version 1.0
+# Badnotez App Store listing — version 1.0
 
 Source of truth for the App Store Connect product page copy (app ID `6757456721`). Owner decisions on 2026-10-15: price US$0.99, version 1.0, English (U.S.) primary plus Traditional Chinese, privacy label "Data Not Collected" answered but not published until the screenshots and website are reviewed.
 
 App Store Connect status on 2026-10-16: every field below was entered and saved through the browser, except the items under "Still open". Nothing was submitted for review, and the privacy label was not published.
 
-Feature claims follow the app's Phase 1 requirements contract. Do not add cloud sync, OCR, search, AI, shapes or audio: Badnotes does not have them.
+Feature claims follow the app's Phase 1 requirements contract. Do not add cloud sync, OCR, search, AI, shapes or audio: Badnotez does not have them.
 
 ## Shared fields
 
@@ -23,11 +23,11 @@ Feature claims follow the app's Phase 1 requirements contract. Do not add cloud 
 
 ## English (U.S.)
 
-- **Name** (30): `Badnotez` (`Badnotes` is reserved in English (U.S.) by another, unreleased app; the Owner chose this spelling. The home-screen name stays Badnotes.)
+- **Name** (30): `Badnotez` (`Badnotes` is reserved in English (U.S.) by another, unreleased app. On 2026-10-16 the Owner adopted Badnotez for the store listing in every language and for the website, which moved to `whodidthese.github.io/site-badnotez`. The app's home-screen name is still Badnotes until the app is renamed.)
 - **Subtitle** (30): `Handwriting notebook for iPad`
-- **Privacy Policy URL**: `https://whodidthese.github.io/site-badnotes/privacy.html`
-- **Support URL**: `https://whodidthese.github.io/site-badnotes/#support`
-- **Marketing URL**: `https://whodidthese.github.io/site-badnotes/`
+- **Privacy Policy URL**: `https://whodidthese.github.io/site-badnotez/privacy.html`
+- **Support URL**: `https://whodidthese.github.io/site-badnotez/#support`
+- **Marketing URL**: `https://whodidthese.github.io/site-badnotez/`
 - **Keywords** (100): `notes,journal,pencil,sketch,diary,study,pdf,drawing,paper,highlighter,folders,offline,writing,ink`
 
 **Promotional text** (170)
@@ -39,7 +39,7 @@ A quiet notebook for iPad and Apple Pencil. Write, sketch and highlight on A4 pa
 **Description** (4,000)
 
 ```
-Badnotes is a quiet handwriting notebook for iPad and Apple Pencil. Open a page, write, sketch and keep what matters, without accounts, feeds or ads.
+Badnotez is a quiet handwriting notebook for iPad and Apple Pencil. Open a page, write, sketch and keep what matters, without accounts, feeds or ads.
 
 WRITE THE WAY YOU THINK
 • Pen, monoline, fountain pen and highlighter, built on Apple's native ink
@@ -84,11 +84,11 @@ Requires iPadOS 27 or later. Drawing and writing are made for Apple Pencil; fing
 
 ## 繁體中文
 
-- **名稱**：`Badnotes`
+- **名稱**：`Badnotez`
 - **副標題**：`安靜的 iPad 手寫筆記本`
-- **隱私權政策 URL**：`https://whodidthese.github.io/site-badnotes/privacy.html?lang=zh-Hant`
-- **支援 URL**：`https://whodidthese.github.io/site-badnotes/?lang=zh-Hant#support`
-- **行銷 URL**：`https://whodidthese.github.io/site-badnotes/?lang=zh-Hant`
+- **隱私權政策 URL**：`https://whodidthese.github.io/site-badnotez/privacy.html?lang=zh-Hant`
+- **支援 URL**：`https://whodidthese.github.io/site-badnotez/?lang=zh-Hant#support`
+- **行銷 URL**：`https://whodidthese.github.io/site-badnotez/?lang=zh-Hant`
 - **關鍵字**：`筆記,手寫,日記,手帳,速寫,繪圖,讀書,學習,PDF,螢光筆,Apple Pencil,紙張,資料夾,離線,手繪`
 
 **宣傳文字**
@@ -100,7 +100,7 @@ Requires iPadOS 27 or later. Drawing and writing are made for Apple Pencil; fing
 **描述**
 
 ```
-Badnotes 是一本為 iPad 與 Apple Pencil 打造的安靜手寫筆記本。翻開一頁，寫下、畫下，留住值得記得的事——不用帳號，沒有動態消息，也沒有廣告。
+Badnotez 是一本為 iPad 與 Apple Pencil 打造的安靜手寫筆記本。翻開一頁，寫下、畫下，留住值得記得的事——不用帳號，沒有動態消息，也沒有廣告。
 
 照你的思路書寫
 • 原子筆、等寬筆、鋼筆與螢光筆，採用 Apple 原生墨水
@@ -144,7 +144,7 @@ Badnotes 是一本為 iPad 與 Apple Pencil 打造的安靜手寫筆記本。翻
 ## App Review notes
 
 ```
-Badnotes is a local-only handwriting notebook for iPad. It has no account, sign-in, server, in-app purchase, ads or tracking.
+Badnotez is a local-only handwriting notebook for iPad. It has no account, sign-in, server, in-app purchase, ads or tracking.
 
 How to review:
 1. In the Library, tap Create Notebook, then tap Create.

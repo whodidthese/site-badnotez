@@ -1,8 +1,8 @@
-# Badnotes official website
+# Badnotez official website
 
-[Website](https://whodidthese.github.io/site-badnotes/) · [Privacy](https://whodidthese.github.io/site-badnotes/privacy.html) · [Support](https://github.com/whodidthese/site-badnotes/issues)
+[Website](https://whodidthese.github.io/site-badnotez/) · [Privacy](https://whodidthese.github.io/site-badnotez/privacy.html) · [Support](https://github.com/whodidthese/site-badnotez/issues)
 
-A quiet, paper-inspired launch page for Badnotes. Warm ivory, dark ink, bronze details, system serif typography, iPad device frames and three illustrated notebook pages. The dark square notebook-and-quill icon is shared with the app. No framework, package install or build step is required.
+A quiet, paper-inspired launch page for Badnotez. Warm ivory, dark ink, bronze details, system serif typography, iPad device frames and three illustrated notebook pages. The dark square notebook-and-quill icon is shared with the app. No framework, package install or build step is required.
 
 ## Pages and languages
 
@@ -14,7 +14,7 @@ A quiet, paper-inspired launch page for Badnotes. Warm ivory, dark ink, bronze d
 
 No cookies, analytics, browser storage, remote fonts or third-party scripts are added. With JavaScript disabled, both pages remain readable in English and all three illustrated examples are available.
 
-Badnotes is sold on the App Store (app ID `6757456721`, minimum iPadOS 27). Store links use `https://apps.apple.com/app/id6757456721`, which redirects to the visitor's storefront and only resolves once version 1.0 is live, so publish this page together with the release.
+Badnotez is sold on the App Store (app ID `6757456721`, minimum iPadOS 27). Store links use `https://apps.apple.com/app/id6757456721`, which redirects to the visitor's storefront and only resolves once version 1.0 is live, so publish this page together with the release.
 
 ## Brand and images
 
@@ -32,7 +32,7 @@ App Store Connect uses the privacy page as its Privacy Policy URL, the home page
 
 ## Content and verification
 
-The October 16, 2026 launch update reflects the Badnotes contract and implementation at app commit `7c9d428` (0.5.0 build 43): pens and highlighter opacity, lasso, photos and text boxes with locking, A4 pages up to 150 with thumbnails, folders, favorites, list/grid, PDF/PNG/JPEG export, editable `.badnotes` backups and Recently Deleted (30 notebooks, not 30 days). The September 30 redesign it builds on was verified at app commit `3e09181`.
+The October 16, 2026 launch update reflects the Badnotez contract and implementation at app commit `7c9d428` (0.5.0 build 43): pens and highlighter opacity, lasso, photos and text boxes with locking, A4 pages up to 150 with thumbnails, folders, favorites, list/grid, PDF/PNG/JPEG export, editable `.badnotes` backups and Recently Deleted (30 notebooks, not 30 days). The September 30 redesign it builds on was verified at app commit `3e09181`.
 
 Browser verification for the launch update covers both pages at 320, 390, 768 and 1440 pixels with no horizontal overflow, every string present in all six languages, gallery switching, cross-page language links and equal device-frame heights in the screenshot grid. No app tests were run for this task.
 
