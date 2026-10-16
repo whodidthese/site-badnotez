@@ -27,6 +27,8 @@ Full prompts, mode and style-reference relationships are in [prompts.json](noteb
 
 `assets/images/*.webp` and `*-small.webp` are resized/compressed exports produced with Sharp, without creative edits. Full page exports are 1055 × 1491; small versions are 550 × 777. Only WebP variants are loaded by the site.
 
-## Real interface screenshot
+## Interface screenshots
 
-`design/notebook-pages/app-library.png` is an unmodified screenshot of Badnotes running on the existing iPad mini simulator with iPadOS 27, English app UI, and the current empty Library. Its source matches the app commit above. `assets/images/app-library.webp` is a 1100-pixel-wide export. The website uses a CSS viewport to show the top of the screen; it does not replace the interface or insert fictional notebooks.
+`assets/screens/*.svg` are generated placeholders at the final iPad 13-inch sizes (2752 × 2064 landscape, 2064 × 2752 portrait). Each is labeled "placeholder" and shows no fictional interface. Replace them with real captures as described in [screenshot specs](app-store/screenshot-specs.md).
+
+The earlier empty-Library simulator screenshot, `design/notebook-pages/app-library.png` with its export `assets/images/app-library.webp`, is retained for reference but no longer shown on the site.
