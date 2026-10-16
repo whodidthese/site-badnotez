@@ -161,8 +161,8 @@ App Review contact name, phone and email are left for the Owner to enter.
 ## Still open (Owner)
 
 - Accept the updated **Paid Applications Schedule** in Business as the Account Holder. App Store Connect shows this banner; a paid app cannot be submitted without it.
-- Upload a build with `MARKETING_VERSION = 1.0` (the app is currently `0.5.0 (43)`; `0.4.0 (37)` cannot be attached to version 1.0) and select it under Build.
+- ~~Upload a 1.0 build~~: 1.0 (44) uploaded, processed and attached to version 1.0 on 2026-10-16.
 - Screenshots for both localizations, per [screenshot-specs.md](screenshot-specs.md).
-- App Review contact: first and last name, phone and email. App Store Connect silently discards the App Review section (the notes below and the unchecked "Sign-in required") until these contact fields are filled, so enter the contact, uncheck sign-in and paste the notes in one save.
+- ~~App Review contact~~: done 2026-10-16, copied from the Owner's Badplayers listing, with sign-in unticked and the notes below. The section only saves after a real click or keystroke in it; scripted values alone leave Save disabled.
 - Publish the App Privacy answers ("Data Not Collected") after the website and screenshots are reviewed.
 - Availability is all 175 regions, including mainland China. Apple may require additional filings there; deselect China in Pricing and Availability if that is not wanted.
