@@ -163,6 +163,6 @@ App Review contact name, phone and email are left for the Owner to enter.
 - Accept the updated **Paid Applications Schedule** in Business as the Account Holder. App Store Connect shows this banner; a paid app cannot be submitted without it.
 - Upload a build with `MARKETING_VERSION = 1.0` (the app is currently `0.5.0 (43)`; `0.4.0 (37)` cannot be attached to version 1.0) and select it under Build.
 - Screenshots for both localizations, per [screenshot-specs.md](screenshot-specs.md).
-- App Review contact: first and last name, phone and email.
+- App Review contact: first and last name, phone and email. App Store Connect silently discards the App Review section (the notes below and the unchecked "Sign-in required") until these contact fields are filled, so enter the contact, uncheck sign-in and paste the notes in one save.
 - Publish the App Privacy answers ("Data Not Collected") after the website and screenshots are reviewed.
 - Availability is all 175 regions, including mainland China. Apple may require additional filings there; deselect China in Pricing and Availability if that is not wanted.
