@@ -29,6 +29,10 @@ Full prompts, mode and style-reference relationships are in [prompts.json](noteb
 
 ## Interface screenshots
 
-`assets/screens/*.svg` are generated placeholders at the final iPad 13-inch sizes (2752 × 2064 landscape, 2064 × 2752 portrait). Each is labeled "placeholder" and shows no fictional interface. Replace them with real captures as described in [screenshot specs](app-store/screenshot-specs.md).
+`assets/screens/*.webp` are actual Badnotez 1.0 (44) interface captures taken on 2026-10-17 using the existing iPad Pro 13-inch (M5), iPadOS 27.0 simulator. Native PNGs are 2752 × 2064 or 2064 × 2752. Store files have been converted to RGB without resizing; website exports use Sharp at 1600 × 1200 or 1200 × 1600, WebP quality 82. No creative edits or generated interface elements were used.
+
+The notebook illustrations came from the Owner-provided `badnotez_store_refs` and existing simulator demonstration notebooks. They are imported images, not native watercolor strokes or app-generated artwork. The three-page Reference collection reuses the existing plant, calendar and coffee page payloads via an imported `.badnotes` backup; source hashes are retained.
+
+Original captures, Store RGB PNGs, sample archive, provenance and SHA-256 manifest are retained outside Git at `/Volumes/WorkHome/workspace/_claude/badnotez_store_refs/ready-2026-10-17/`. The compact [capture receipt](app-store/capture-receipt.json) maps website assets to the native captures.
 
 The earlier empty-Library simulator screenshot, `design/notebook-pages/app-library.png` with its export `assets/images/app-library.webp`, is retained for reference but no longer shown on the site.

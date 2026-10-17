@@ -2,7 +2,7 @@
 
 Source of truth for the App Store Connect product page copy (app ID `6757456721`). Owner decisions on 2026-10-15: price US$0.99, version 1.0, English (U.S.) primary plus Traditional Chinese, privacy label "Data Not Collected" answered but not published until the screenshots and website are reviewed.
 
-App Store Connect status on 2026-10-16: every field below was entered and saved through the browser, except the items under "Still open". Nothing was submitted for review, and the privacy label was not published.
+App Store Connect status verified on 2026-10-17: Build 1.0 (44) is uploaded, processed and selected. English (U.S.) and Traditional Chinese each have six native-size RGB iPad screenshots. Descriptions and review notes disclose the imported sample illustrations. The Add for Review validation reports only the unpublished privacy answers. No App Review submission has been sent; the privacy confirmation remains for the Owner.
 
 Feature claims follow the app's Phase 1 requirements contract. Do not add cloud sync, OCR, search, AI, shapes or audio: Badnotez does not have them.
 
@@ -12,7 +12,8 @@ Feature claims follow the app's Phase 1 requirements contract. Do not add cloud 
 | --- | --- |
 | Primary language | English (U.S.) |
 | Category | Productivity (primary), Education (secondary) |
-| Price | US$0.99 (Tier 1 equivalent), all territories |
+| Price | US$0.99 (Tier 1 equivalent), 174 territories, mainland China excluded |
+| Device availability | iPad only; Apple silicon Mac and Vision Pro disabled, per Owner decision on 2026-10-17 |
 | Copyright | 2026 Chien Tang Chen |
 | Age rating | 4+ (every questionnaire answer None / No) |
 | Content rights | No third-party content |
@@ -23,7 +24,7 @@ Feature claims follow the app's Phase 1 requirements contract. Do not add cloud 
 
 ## English (U.S.)
 
-- **Name** (30): `Badnotez` (`Badnotes` is reserved in English (U.S.) by another, unreleased app. On 2026-10-16 the Owner adopted Badnotez for the store listing in every language and for the website, which moved to `whodidthese.github.io/site-badnotez`. The app's home-screen name is still Badnotes until the app is renamed.)
+- **Name** (30): `Badnotez`. On 2026-10-17, attempting to save `Badnotes` for English (U.S.) returned Apple's explicit name-already-used error. `Badnotez` was restored and saved. This confirms unavailability, not whether the other app is publicly released. Build 44 also uses Badnotez as its home-screen name; the bundle ID and `.badnotes` format remain unchanged.
 - **Subtitle** (30): `Handwriting notebook for iPad`
 - **Privacy Policy URL**: `https://whodidthese.github.io/site-badnotez/privacy.html`
 - **Support URL**: `https://whodidthese.github.io/site-badnotez/#support`
@@ -78,6 +79,8 @@ Your notebooks are stored on your iPad. There's no account to create, no ads, no
 Available in English, Traditional Chinese, Simplified Chinese, Japanese, Korean and Spanish.
 
 Requires iPadOS 27 or later. Drawing and writing are made for Apple Pencil; fingers are used for buttons, scrolling, zooming and turning pages.
+
+Illustrations shown in the screenshots are imported sample images.
 ```
 
 **What's New**: not shown for a first release.
@@ -139,6 +142,8 @@ Badnotez 是一本為 iPad 與 Apple Pencil 打造的安靜手寫筆記本。翻
 支援英文、繁體中文、簡體中文、日文、韓文與西班牙文。
 
 需要 iPadOS 27 或以上版本。書寫與繪圖專為 Apple Pencil 設計；手指用於按鈕、捲動、縮放與翻頁。
+
+截圖中的插畫為匯入的示範圖片。
 ```
 
 ## App Review notes
@@ -154,15 +159,24 @@ How to review:
 5. Settings (the gear in the Library) contains pen colors, highlighter colors, brush sizes, paper colors, Recently Deleted, and import/export of editable .badnotes notebook backups.
 
 Photos access: the app uses the system photo picker (no library permission) and only asks for add-only access when the user saves an exported image to Photos.
+
+Screenshots show imported sample illustrations; the app does not generate these illustrations.
 ```
 
-App Review contact name, phone and email are left for the Owner to enter.
+App Review contact name, phone and email are saved. Private contact details are not copied into this repository.
 
-## Still open (Owner)
+## Final Owner confirmations
 
-- Accept the updated **Paid Applications Schedule** in Business as the Account Holder. App Store Connect shows this banner; a paid app cannot be submitted without it.
-- ~~Upload a 1.0 build~~: 1.0 (44) uploaded, processed and attached to version 1.0 on 2026-10-16.
-- Screenshots for both localizations, per [screenshot-specs.md](screenshot-specs.md).
-- ~~App Review contact~~: done 2026-10-16, copied from the Owner's Badplayers listing, with sign-in unticked and the notes below. The section only saves after a real click or keystroke in it; scripted values alone leave Save disabled.
-- Publish the App Privacy answers ("Data Not Collected") after the website and screenshots are reviewed.
-- Availability is all 175 regions, including mainland China. Apple may require additional filings there; deselect China in Pricing and Availability if that is not wanted.
+1. Publish the prepared **Data Not Collected** privacy answers. Apple’s confirmation says publication attests to accuracy, compliance with applicable laws, and keeping answers current; the final Publish button has not been pressed.
+2. Review the updated **Paid Applications Schedule** in Business as Account Holder. The paid agreement is currently Active (New Agreement Available). The banner asks for acceptance; no agreement was accepted by the agent.
+3. Once those are confirmed, rerun Add for Review, inspect the review submission summary, and submit version 1.0 (44). Manual release remains enabled, so approval does not automatically publish the app.
+
+The current Add for Review validation specifically lists the unpublished privacy information; the paid-agreement update is a separate account notice. Do not claim the server has already rejected submission for the agreement.
+
+## Evidence and verification
+
+- 2026-10-17 Owner choices: “僅供應 iPad，關閉 Mac／Vision Pro” and “先排除中國大陸，保留其他地區”. Saved and read back: 174 territories, China unavailable, both compatibility checkboxes unchecked.
+- Six screenshots in each localization, original dimensions and RGB validated; [capture receipt](capture-receipt.json) and [specs](screenshot-specs.md).
+- Website captures checked at 390 px mobile and 1440 px desktop, including Traditional Chinese, no horizontal overflow. Five new images loaded successfully; six-language string coverage and local links checked.
+- Independent read-only review of app privacy/source, metadata evidence and website screenshots found no new blocking issues. Privacy/source review is distinct from the primary agent's live ASC checks.
+- No new App build or tests. The reviewed Build 44 candidate and prior Owner device acceptance remain the relevant App evidence.

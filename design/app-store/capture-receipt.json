@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-17",
+  "app": "Badnotez 1.0 (44)",
+  "simulator": "iPad Pro 13-inch (M5), iPadOS 27.0",
+  "simulator_udid": "10963954-BA7F-4381-AFE0-54DDCC9E898E",
+  "scope": "Screenshots of existing installed build; not a new build, test run or physical-device acceptance",
+  "source_root": "/Volumes/WorkHome/workspace/_claude/badnotez_store_refs/ready-2026-10-17",
+  "store_screenshots": [
+    {
+      "path": "Screenshots/en-US/01-editor.png",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 4597022,
+      "sha256": "f55364fa1b9ee006c3c40b3216b5bd955a55ced57c13c0ea6fdb7e419b70e9d4"
+    },
+    {
+      "path": "Screenshots/en-US/02-tools.png",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 4610120,
+      "sha256": "2431f9702ab8738e3131b82c4b9b66913124fee2ed1d39dce5397662058b6c78"
+    },
+    {
+      "path": "Screenshots/en-US/03-imported-image.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 3038483,
+      "sha256": "90c10c0fc7311c6c1d93a621e90687c50f0f8a0c04177118b6f573eb634e1ed8"
+    },
+    {
+      "path": "Screenshots/en-US/04-thumbnails.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 794959,
+      "sha256": "ccc41fa3d676b4679ba73243eaf2b4cfc55d5bc10a8246286e99f0fcad06b1bd"
+    },
+    {
+      "path": "Screenshots/en-US/05-library.png",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 732851,
+      "sha256": "bc9e50120ded5ec86ec7b89b524230a531ffbf4e6caec8f76f4525b02d3d139c"
+    },
+    {
+      "path": "Screenshots/en-US/06-export.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 3064763,
+      "sha256": "4418d05ac75c519a5d7bc5654b61fad6e75e8b22dfd5dbaca06b61e746901932"
+    },
+    {
+      "path": "Screenshots/zh-Hant/01-editor.png",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 4992110,
+      "sha256": "b55fef7031436e5e130e99ffc525713174916be3ae0e1701110f8ae660e80dd9"
+    },
+    {
+      "path": "Screenshots/zh-Hant/02-tools.png",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 5005130,
+      "sha256": "63f7e5c987efc64d962dd5ab0503d5266666ab762d4429a4063a9de96583d374"
+    },
+    {
+      "path": "Screenshots/zh-Hant/03-imported-image.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 3019846,
+      "sha256": "ff9608257ea57586dc6cdabd328f87e3afcfc31be750399681ac4e96290ada91"
+    },
+    {
+      "path": "Screenshots/zh-Hant/04-thumbnails.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 792744,
+      "sha256": "0fed554625a0f4af7f6bbe04e6fb65e536a2cdeb2b7365d5ff20fac8fdca4806"
+    },
+    {
+      "path": "Screenshots/zh-Hant/05-library.png",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 730446,
+      "sha256": "ba9e9d010ffa1967afe6b8ec933775292b8fdf40d91bf1ca0214e1a9e5f963f3"
+    },
+    {
+      "path": "Screenshots/zh-Hant/06-export.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 3039795,
+      "sha256": "ea63378683087ef8099c64baf3c12486243e95bd78fcfb731eddf9bb0a457ca0"
+    }
+  ],
+  "website_mapping": {
+    "01-editor.webp": "en-US/01-editor.png",
+    "02-library.webp": "en-US/05-library.png",
+    "03-thumbnails.webp": "en-US/04-thumbnails.png",
+    "04-export.webp": "en-US/06-export.png",
+    "05-tools.webp": "en-US/02-tools.png"
+  },
+  "processing": "Store: native dimensions, RGB PNG. Website: Sharp WebP q82, 1600 landscape or 1200 portrait width. No creative edits."
+}

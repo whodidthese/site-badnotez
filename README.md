@@ -14,11 +14,11 @@ A quiet, paper-inspired launch page for Badnotez. Warm ivory, dark ink, bronze d
 
 No cookies, analytics, browser storage, remote fonts or third-party scripts are added. With JavaScript disabled, both pages remain readable in English and all three illustrated examples are available.
 
-Badnotez is sold on the App Store (app ID `6757456721`, minimum iPadOS 27). Store links use `https://apps.apple.com/app/id6757456721`, which redirects to the visitor's storefront and only resolves once version 1.0 is live, so publish this page together with the release.
+Badnotez is preparing for its first App Store release (app ID `6757456721`, minimum iPadOS 27). The public site shows Coming soon. After the manually released version is actually live, replace the three status spans in `index.html` and the navigation status in `privacy.html` with links to `https://apps.apple.com/app/id6757456721`, and update `download`, `appStoreShort`, and `supportDescription` in all six languages.
 
 ## Brand and images
 
-See [asset provenance](design/README.md). The iPad screenshots in `assets/screens/` are labeled SVG placeholders until real captures replace them; see [screenshot specs](design/app-store/screenshot-specs.md). Original illustrations, generation prompts, the original simulator screenshot and resized WebP exports are retained. Illustrations are labeled as examples; the Library image is explicitly identified as the actual app interface. These pages do not promise watercolor brushes, cloud sync or AI features.
+See [asset provenance](design/README.md). The five iPad screenshots in `assets/screens/` are real Build 44 captures from the existing iPad Pro 13-inch simulator; see [screenshot specs and receipt](design/app-store/screenshot-specs.md). Original illustrations, generation prompts, the original simulator screenshot and resized WebP exports are retained. The captured notebook content includes imported sample illustrations, identified by captions and alt text. These pages do not promise watercolor brushes, cloud sync or AI features.
 
 `assets/brand/app-icon-512.png`, `assets/app-icon.png`, the favicon and touch icon use the dark artwork. The shared transparent mark and `app-icon-light-512.png` are available for future use on other backgrounds. The app repository owns the master and icon export script.
 
@@ -37,3 +37,5 @@ The October 16, 2026 launch update reflects the Badnotez contract and implementa
 Browser verification for the launch update covers both pages at 320, 390, 768 and 1440 pixels with no horizontal overflow, every string present in all six languages, gallery switching, cross-page language links and equal device-frame heights in the screenshot grid. No app tests were run for this task.
 
 External privacy references are linked beside the corresponding paragraphs in the privacy page: [Apple TestFlight](https://www.apple.com/legal/privacy/data/en/test-flight/) and [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection).
+
+The October 17, 2026 submission continuation replaces all five interface placeholders with native captures compressed to WebP and corrects the pre-release availability wording. No App code or build inputs changed. Store submission status is recorded in [the listing](design/app-store/listing.md).
