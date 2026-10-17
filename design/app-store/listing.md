@@ -1,8 +1,8 @@
 # Badnotez App Store listing — version 1.0
 
-Source of truth for the App Store Connect product page copy (app ID `6757456721`). Owner decisions on 2026-10-15: price US$0.99, version 1.0, English (U.S.) primary plus Traditional Chinese, privacy label "Data Not Collected" answered but not published until the screenshots and website are reviewed.
+Source of truth for the App Store Connect product page copy (app ID `6757456721`). Owner decisions on 2026-10-15: price US$0.99, version 1.0, English (U.S.) primary plus Traditional Chinese. The "Data Not Collected" privacy label was published after the screenshot and website review and the Owner's explicit confirmation on 2026-10-17.
 
-App Store Connect status verified on 2026-10-17: Build 1.0 (44) is uploaded, processed and selected. English (U.S.) and Traditional Chinese each have six native-size RGB iPad screenshots. Descriptions and review notes disclose the imported sample illustrations. The Add for Review validation reports only the unpublished privacy answers. No App Review submission has been sent; the privacy confirmation remains for the Owner.
+App Store Connect status verified on 2026-10-17: **Waiting for Review**. Version 1.0 (44) was submitted at 14:50 Asia/Taipei; submission ID `3233cd47-f53d-4173-91e8-accbba065cda`. English (U.S.) and Traditional Chinese each have six native-size RGB iPad screenshots. Descriptions and review notes disclose the imported sample illustrations. Privacy answers are published and the paid agreement is Active. Manual release remains enabled; the website keeps Coming soon until the app is publicly available.
 
 Feature claims follow the app's Phase 1 requirements contract. Do not add cloud sync, OCR, search, AI, shapes or audio: Badnotez does not have them.
 
@@ -165,13 +165,13 @@ Screenshots show imported sample illustrations; the app does not generate these 
 
 App Review contact name, phone and email are saved. Private contact details are not copied into this repository.
 
-## Final Owner confirmations
+## Owner confirmations and submission
 
-1. Publish the prepared **Data Not Collected** privacy answers. Apple’s confirmation says publication attests to accuracy, compliance with applicable laws, and keeping answers current; the final Publish button has not been pressed.
-2. Review the updated **Paid Applications Schedule** in Business as Account Holder. The paid agreement is currently Active (New Agreement Available). The banner asks for acceptance; no agreement was accepted by the agent.
-3. Once those are confirmed, rerun Add for Review, inspect the review submission summary, and submit version 1.0 (44). Manual release remains enabled, so approval does not automatically publish the app.
+1. Owner authorized privacy publication: “同意，發佈隱私資訊”. The live privacy page now confirms publication of **Data Not Collected**.
+2. Owner confirmed reading and authorized acceptance of the updated **Paid Applications Schedule**: “我已閱讀，授權你同意這份協議”. The live Business page now shows **Active**, with no new agreement pending.
+3. Add for Review succeeded. The submission summary contained only version **1.0 (44)**; Submit for Review returned one submitted item and **Waiting for Review**.
 
-The current Add for Review validation specifically lists the unpublished privacy information; the paid-agreement update is a separate account notice. Do not claim the server has already rejected submission for the agreement.
+[App Review submission](https://appstoreconnect.apple.com/apps/6757456721/distribution/reviewsubmissions/details/3233cd47-f53d-4173-91e8-accbba065cda). Next step: await Apple's review result, then manually release when ready. No Owner confirmation is currently pending.
 
 ## Evidence and verification
 
